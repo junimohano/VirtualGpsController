@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#16253D">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <Button
+                android:id="@+id/ButtonReal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="13sp"
+                android:textColor="#191919"
+                android:gravity="center"
+                android:background="@drawable/ShapeButton"
+                android:text="@string/Real" />
+            <Button
+                android:id="@+id/ButtonDefault"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="13sp"
+                android:textColor="#191919"
+                android:gravity="center"
+                android:background="@drawable/ShapeButton"
+                android:text="@string/Default" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textColor="#ffffff"
+            android:text="@string/DialogChangeLocationMessage"
+            android:layout_marginBottom="10dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/EditTextLatitude"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal|numberSigned"
+                android:gravity="center"
+                android:hint="@string/Latitude" />
+            <EditText
+                android:id="@+id/EditTextLongitude"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal|numberSigned"
+                android:gravity="center"
+                android:hint="@string/Longitude" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/ButtonOk"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#191919"
+                android:gravity="center"
+                android:background="@drawable/ShapeButton"
+                android:text="@string/DialogOk" />
+            <Button
+                android:id="@+id/ButtonCancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#191919"
+                android:gravity="center"
+                android:background="@drawable/ShapeButton"
+                android:text="@string/DialogCancel" />
+        </LinearLayout>
+    </LinearLayout>
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.MapFragment" />
+</LinearLayout>

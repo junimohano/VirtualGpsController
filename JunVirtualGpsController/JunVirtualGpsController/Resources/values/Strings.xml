@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="BannerAdUnitId">ca-app-pub-2533928663773048/1027145211</string>
+  <string name="InterstitialAdUnitId">ca-app-pub-2533928663773048/3980611613</string>
+  <string name="GoogleMapKey">AIzaSyDQtRtgL_QphcDxk5Pkj-yvnvQsCYJw2Cg</string>
+  <!--<string name="GoogleMapKeyDebug">AIzaSyBEV5W86jbpFbQDTHijR88azyOyHmuGOGk</string>-->
+  
+  <string name="DefaultLatitude">37.787994</string>
+  <string name="DefaultLongitude">-122.407455</string>
+
+  <string name="ApplicationName">Virtual Gps Controller</string>
+  
+  <string name="Real">Get Real Location</string>
+  <string name="Default">Get Default Location</string>
+  <string name="LocationRealMessage">Received Real Location</string>
+  <string name="LocationDefaultMessage">Received Default Location</string>
+  <string name="LocationChangeSuccessMessage">Location has been updated</string>
+  <string name="NotificationMessage">Press to open it</string>
+  
+  <string name="Start">Start</string>
+  <string name="Stop">Stop</string>
+  <string name="Developer">Open Developer options</string>
+  <string name="Home">Home</string>
+  <string name="Auto">Auto</string>
+  <string name="Speed">Speed</string>
+  <string name="Pin">Pin</string>
+  <string name="Latitude">Latitude</string>
+  <string name="Longitude">Longitude</string>
+
+  <string name="DialogChangeLocationTitle">Location</string>
+  <string name="DialogChangeLocationMessage">Do you want to change this location?</string>
+  <string name="DialogChangeLocationWarningMessage">Please remind you that it could be banned for few hours, do you want to move now?</string>
+  <string name="DialogCancel">Cancel</string>
+  <string name="DialogOk">Ok</string>
+
+  <string name="DialogIsAllowMockLocationTitle">Requires Allow Mock Locations permission</string>
+  <string name="DialogIsAllowMockLocationMessage">Do you want to open Developer options?</string>
+  
+  <string name="Description">
+    Requirement \n\n
+
+    1. Settings -> Developer options -> Allow mock locations (change this app) \n\n
+    (If you can not see Developer options, Settings -> About phone -> Software information -> touch Build number 7 times) \n\n
+
+    2. Settings -> Location -> Mode (change High accuracy) \n\n
+
+    3. Reboot (make sure Gps on, Network on) \n\n
+
+    - When you use Google Map, red arrow in compass should be north side then, controller will be working correctly \n\n
+
+    * You will be 100% responsible if anything happens when you use this with any applications *
+  </string>
+  
+</resources>

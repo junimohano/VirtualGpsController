@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000">
+    <TableRow
+        android:id="@+id/tableRow1">
+        <ImageButton
+            android:src="@drawable/NorthWestButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/imageButtonQ"
+            android:background="#00000000" />
+        <ImageButton
+            android:src="@drawable/NorthButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/imageButtonW"
+            android:background="#00000000" />
+        <ImageButton
+            android:src="@drawable/NorthEastButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/imageButtonE"
+            android:background="#00000000" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow2">
+        <ImageButton
+            android:src="@drawable/WestButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/imageButtonA"
+            android:background="#00000000" />
+        <ImageButton
+            android:src="@drawable/MoveButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/imageButtonS"
+            android:scaleType="fitCenter"
+            android:background="#00000000" />
+        <ImageButton
+            android:src="@drawable/EastButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/imageButtonD"
+            android:background="#00000000" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow3">
+        <ImageButton
+            android:src="@drawable/SouthWestButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/imageButtonZ"
+            android:background="#00000000" />
+        <ImageButton
+            android:src="@drawable/SouthButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/imageButtonX"
+            android:background="#00000000" />
+        <ImageButton
+            android:src="@drawable/SouthEastButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/imageButtonC"
+            android:background="#00000000" />
+    </TableRow>
+</TableLayout>

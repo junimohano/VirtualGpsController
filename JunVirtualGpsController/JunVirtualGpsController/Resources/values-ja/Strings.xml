@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">Virtual Gps Controller (仮想 GPS コントローラ)</string>
+
+  <string name="Real">現在地</string>
+  <string name="Default">設定位置</string>
+  <string name="LocationRealMessage">現在地を確認中</string>
+  <string name="LocationDefaultMessage">設定位置を確認中</string>
+  <string name="LocationChangeSuccessMessage">ロケーションを変更しました</string>
+  <string name="NotificationMessage">アプリを開く</string>
+  
+  <string name="Start">開始</string>
+  <string name="Stop">終了</string>
+  <string name="Developer">開発者向けオプション オープン</string>
+  <string name="Home">ホーム</string>
+  <string name="Auto">自動</string>
+  <string name="Speed">速度</string>
+  <string name="Latitude">緯度</string>
+  <string name="Longitude">硬度</string>
+
+  <string name="DialogChangeLocationTitle">位置</string>
+  <string name="DialogChangeLocationMessage">場所を変更したいですか？</string>
+  <string name="DialogChangeLocationWarningMessage">*お知らせ* ロケーションを移動すると数時間使えなくなる可能性があります。移動しますか？</string>
+  <string name="DialogCancel">キャンセル</string>
+  <string name="DialogOk">変更</string>
+
+  <string name="DialogIsAllowMockLocationTitle">疑似ロケーションを許可することが必要です</string>
+  <string name="DialogIsAllowMockLocationMessage">開発者向けオプションを開きますか?</string>
+  
+  <string name="Description">
+    要件 \n\n
+
+    1. 設定 -> 開発者向けオプション -> 疑似ロケーションを許可 (このアプリケーションに変更) \n\n
+    (開発向けオプションが見れない場合, 設定 -> 端末情報 -> ソフトウエア情報 -> ビルド番号を７回押してください) \n\n
+
+    2. 設定 -> 位置情報 -> モード (高精度に変更) \n\n
+
+    3. リブート (Gps オン, ネットワーク　オンか確認) \n\n
+
+    - グーグルマップ使用時、コンパスの赤が北を示す時に正しく作動します \n\n
+
+    * このアプリを他のアプリと共有したりした場合の責任は負いかねます, 節度を守って使用してください
+  </string>
+  
+</resources>

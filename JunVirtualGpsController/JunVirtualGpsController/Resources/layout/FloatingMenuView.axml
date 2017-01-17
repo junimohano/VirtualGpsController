@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:orientation="vertical">
+    <ImageButton
+        android:src="@drawable/MoveButton"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/imageButtonS"
+        android:scaleType="fitCenter"
+        android:background="#00000000" />
+    <ImageButton
+        android:id="@+id/ImageButtonHome"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/MenuButton"
+        android:scaleType="fitCenter"
+        android:background="#00000000" />
+    <TextView
+        android:id="@+id/TextViewHome"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:text="@string/Home"
+        android:layout_marginBottom="10dp" />
+    <ImageButton
+        android:id="@+id/ImageButtonAuto"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/AutoOffButton"
+        android:scaleType="fitCenter"
+        android:background="#00000000" />
+    <TextView
+        android:id="@+id/TextViewAuto"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:text="@string/Auto"
+        android:layout_marginBottom="10dp" />
+    <ImageButton
+        android:id="@+id/ImageButtonSpeed"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/Speed1Button"
+        android:scaleType="fitCenter"
+        android:background="#00000000" />
+    <TextView
+        android:id="@+id/TextViewSpeed"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:text="@string/Speed"
+        android:layout_marginBottom="10dp" />
+<!--<ImageButton
+        android:id="@+id/ImageButtonPin"
+        android:layout_width="30dp"
+        android:layout_height="30sp"
+        android:src="@drawable/PinOffButton"
+        android:scaleType="fitCenter"
+        android:background="#00000000" />
+    <TextView
+        android:id="@+id/TextViewPin"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:text="@string/Pin" />-->
+</LinearLayout>

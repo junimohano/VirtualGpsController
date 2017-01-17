@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">Virtual Gps Controller (가상 GPS 컨트롤러)</string>
+
+  <string name="Real">실제 위치 가져오기</string>
+  <string name="Default">초기 위치 가져오기</string>
+  <string name="LocationRealMessage">실제 위치를 가져왔습니다.</string>
+  <string name="LocationDefaultMessage">초기 위치를 가져왔습니다.</string>
+  <string name="LocationChangeSuccessMessage">위치가 정상적으로 변경 되었습니다.</string>
+  <string name="NotificationMessage">어플리케이션 열기</string>
+  
+  <string name="Start">시작</string>
+  <string name="Stop">종료</string>
+  <string name="Developer">개발자 옵션창 열기</string>
+  <string name="Home">홈</string>
+  <string name="Auto">자동</string>
+  <string name="Speed">속도</string>
+  <string name="Latitude">위도</string>
+  <string name="Longitude">경도</string>
+
+  <string name="DialogChangeLocationTitle">위치</string>
+  <string name="DialogChangeLocationMessage">이 좌표로 위치를 바꾸시겠습니까?</string>
+  <string name="DialogChangeLocationWarningMessage">위치 변경할 경우, 일시적으로 몇시간 동안 제대로 진행이 안될 수 있습니다. 그래도 이동 하시겠습니까?</string>
+  <string name="DialogCancel">취소</string>
+  <string name="DialogOk">변경</string>
+
+  <string name="DialogIsAllowMockLocationTitle">현재 모의 위치 허용 권한이 없습니다.</string>
+  <string name="DialogIsAllowMockLocationMessage">개발자 옵션 창을 여시겠습니까?</string>
+  
+  <string name="Description">
+    필수사항 \n\n
+
+    1. 환경설정 -> 개발자 옵션 -> 모의 위치 허용 (현재 앱으로 변경) \n\n
+    (만약 개발자 옵션이 보이지 않는다면, 환경설정 -> 휴대폰 정보 -> 소프트웨어 정보 -> 빌드 번호 (7회 터치) \n\n
+
+    2. 환경설정 -> 위치 -> 모드 (높은 정확도 변경) \n\n
+
+    3. 재부팅 (GPS, 네트워크 켜져잇는지 확인) \n\n
+
+    - 구글맵 사용시, 나침반 위치(빨간표시가 북쪽으로)를 정확하게 맞추셔야 컨트롤러가 올바르게 작동 합니다 \n\n
+
+    * 다른 어플리케이션에 사용하다 문제가 발생할 경우 본인이 책임 지셔야 합니다 *
+  </string>
+  
+</resources>

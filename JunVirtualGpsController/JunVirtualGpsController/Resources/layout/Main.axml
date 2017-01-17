@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#16253D">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/ActivityVerticalMargin"
+        android:layout_marginBottom="@dimen/ActivityVerticalMargin"
+        android:layout_marginLeft="@dimen/ActivityHorizontalMargin"
+        android:layout_marginRight="@dimen/ActivityHorizontalMargin"
+        android:background="@drawable/Shape">
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+            <TableRow
+                android:id="@+id/tableRow1">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="#191919"
+                        android:text="@string/Start" />
+                    <ImageButton
+                        android:src="@drawable/StartButton"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/ImageButtonStart"
+                        android:scaleType="fitCenter"
+                        android:background="#00000000" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="#191919"
+                        android:text="@string/Stop" />
+                    <ImageButton
+                        android:src="@drawable/StopButton"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/ImageButtonStop"
+                        android:scaleType="fitCenter"
+                        android:background="#00000000" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/AdView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/BannerAdUnitId" />
+        <ImageButton
+            android:src="@drawable/DeveloperButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ImageButtonDeveloper"
+            android:scaleType="fitCenter"
+            android:background="#00000000" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#191919"
+            android:text="@string/Developer"
+            android:layout_marginBottom="10dp" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="@string/Description"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ScrollView>
+</LinearLayout>
